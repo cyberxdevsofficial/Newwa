@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background: #000 url('https://i.imgur.com/3W3Qw6Q.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #00ff00;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #000;
+    border: 1px solid #00ff00;
+    color: #00ff00;
+    border-radius: 5px;
+}
+
+button {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #00ff00;
+    color: #000;
+}
+
+a {
+    color: #00ff00;
+    text-decoration: none;
+}
